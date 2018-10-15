@@ -15,18 +15,18 @@ Vue on some of the study DEMO, as well as some of my understanding of the Vue an
 - 自定义指令
 - [动画和过渡效果](https://github.com/panguangzhou/Vue-elemen/issues/6)
 - [路由](https://github.com/panguangzhou/Vue-elemen/issues/5)
-- [Vuex](#Vuex)
+- [Vuex](#demox)
 
-# 认识Vue
-   <a href='#demo1'>认识Vue</a>
+# <a href='#demo1'>认识Vue</a>
+   
 - 一套用于构建用户界面的渐进式框架
 - Vue被设计为可以自底向上逐层应用
 - Vue的核心库只关注视图层，不仅易上手，还便于与第三方库或既有项目整合
 - 现代化的工具链以及各种支持类库结合使用
 
 
-# 认识数据驱动模式
-	<a href='#demo2'>认识数据驱动模式</a>
+# <a href='#demo2'>认识数据驱动模式</a>
+	
 
 - 数据驱动是vuejs最大的特点
 - 当数据发生变化的时候，用户界面发生响应的变化，开发者不需要手动去修改dom
@@ -42,9 +42,8 @@ Vue on some of the study DEMO, as well as some of my understanding of the Vue an
 - 这样就实现数据对于视图的驱动
 
 
-# 认识MVVM模式
+# <a href='#demo3'>认识MVVM模式</a>
 
-	<a href='#demo3'>认识MVVM模式</a>
 
 MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层），VM（ViewModel，V与M连接的桥梁，可以看作为控制器）
 
@@ -56,8 +55,8 @@ MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层�
 ![关系图](http://www.runoob.com/wp-content/uploads/2017/01/20151109171527_549.png)
 
 
-# 模板语句
-	<a href='#demo4'>模板语句</a>
+# <a href='#demo4'>模板语句</a>
+	
 
 ## 文本
 
@@ -90,8 +89,8 @@ MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层�
 	methods中一般都是定义的需要事件触发的一些函数，只要触发事件，就会执行对应的方法，会浪费性能
 	computed必须返回一个页面绑定的才能取得值，而methods可以执行逻辑带啊，可以有返回值，也可以没有
 
-# 样式绑定
-	<a href='#demo5'>样式绑定</a>
+# <a href='#demo5'>样式绑定</a>
+	
 
 ## 对象语法
 	v-bind:class
@@ -112,7 +111,31 @@ MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层�
 ## 内联样式
 	`v-bind:style`
 
-# Vue 实例化时基本属性
-	<a href='#demo6'>实例化基本属性</a>
+# <a href="#demox">Vuex</a>
 	
-# <a href="#Vuex">这是Vuex</a>
+- Vuex是一个专门为Vue.js应用程序开发的状态管理模式
+- 它采用集中式存储管理应用的所有组件的状态，并以相对应的规则保证状态以一种可预测的方式发生变化
+- 一个页面多个组件之间通信数据，可以使用Vuex
+
+## 安装
+
+`npm install vuex --save`
+
+## 引用
+
+- 在一个模块化的打包系统中，必须显示地通过Vue.use()来安装Vuex;
+
+```main.js
+import Vue from 'vue'//var Vue = require('vue')
+import Vuex from 'vuex'//var Vuex = require('vuex')
+Vue.use(Vuex)
+```
+## 开始
+	
+- 每一个Vuex应用的核心就是store(仓库)
+- store基本上就是一个容器，它包含着你的应用中大部分的状态(state),Vuex和单纯的全局对象有两个不同点
+
+1、Vuex的状态存储是响应式的。当Vuex组件从store中读取状态的时候，若stroe中的状态发生变化，那么响应的组件也会响应地得到高效更新
+2、不能直接改变store中的状态，改变store中的状态的唯一途径就是显示地提交(commit)mutations。这样可以方便地跟踪每一个桩体的变化
+
+## 使用
