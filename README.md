@@ -15,7 +15,7 @@ Vue on some of the study DEMO, as well as some of my understanding of the Vue an
 - 自定义指令
 - [动画和过渡效果](https://github.com/panguangzhou/Vue-elemen/issues/6)
 - [路由](https://github.com/panguangzhou/Vue-elemen/issues/5)
-- Vuex(#Vuex)
+- [Vuex](#Vuex)
 
 # 认识Vue
 
