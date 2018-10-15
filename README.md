@@ -18,7 +18,7 @@ Vue on some of the study DEMO, as well as some of my understanding of the Vue an
 - [Vuex](#Vuex)
 
 # 认识Vue
-   <span id='demo1'>认识Vue</span>
+   <a href='#demo1'>认识Vue</a>
 - 一套用于构建用户界面的渐进式框架
 - Vue被设计为可以自底向上逐层应用
 - Vue的核心库只关注视图层，不仅易上手，还便于与第三方库或既有项目整合
@@ -26,7 +26,7 @@ Vue on some of the study DEMO, as well as some of my understanding of the Vue an
 
 
 # 认识数据驱动模式
-	<span id='demo2'>认识数据驱动模式</span>
+	<a href='#demo2'>认识数据驱动模式</a>
 
 - 数据驱动是vuejs最大的特点
 - 当数据发生变化的时候，用户界面发生响应的变化，开发者不需要手动去修改dom
@@ -44,7 +44,7 @@ Vue on some of the study DEMO, as well as some of my understanding of the Vue an
 
 # 认识MVVM模式
 
-	<span id='demo3'>认识MVVM模式</span>
+	<a href='#demo3'>认识MVVM模式</a>
 
 MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层），VM（ViewModel，V与M连接的桥梁，可以看作为控制器）
 
@@ -57,7 +57,7 @@ MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层�
 
 
 # 模板语句
-	<span id='demo4'>模板语句</span>
+	<a href='#demo4'>模板语句</a>
 
 ## 文本
 
@@ -91,7 +91,7 @@ MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层�
 	computed必须返回一个页面绑定的才能取得值，而methods可以执行逻辑带啊，可以有返回值，也可以没有
 
 # 样式绑定
-	<span id='demo5'>样式绑定</span>
+	<a href='#demo5'>样式绑定</a>
 
 ## 对象语法
 	v-bind:class
@@ -113,6 +113,6 @@ MVVM分为三个部分：分别是M（Model,模型层），V（View，视图层�
 	`v-bind:style`
 
 # Vue 实例化时基本属性
-	<span id='demo6'>实例化基本属性</span>
+	<a href='#demo6'>实例化基本属性</a>
 	
-# <span id="Vuex">这是Vuex</span>
+# <a href="#Vuex">这是Vuex</a>
